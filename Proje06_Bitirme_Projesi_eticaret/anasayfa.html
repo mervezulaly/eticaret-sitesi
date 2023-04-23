@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>proje</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=Rubik+Microbe&family=Silkscreen&display=swap" rel="stylesheet">
+
+   
+ 
+    <script src="https://kit.fontawesome.com/5382bb82a5.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="index.js" type="text/javascript">
+    </script>
+</head>
+<body>
+  <div class="sayfa">
+    <nav class="navbar sticky-top bg-light">
+      <div class="container-fluid ">
+        <a class="navbar-brand"  href="#">HızlıAl</a>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-square-pinterest"></i>
+      </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="anasayfa.html">Anasayfa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="iletisim.html">İletişim</a>
+              </li>
+              <li> 
+              <button onclick="myFunction()" class="dropbtn">Kategoriler</button>
+              <div id="myDropdown" class="dropdown-content">
+                <a class="dropdown-item" href="giyim.html">Giyim</a>
+                <a class="dropdown-item" href="#">Kişisel Bakım</a>
+                <a class="dropdown-item" href="#">Kırtasiye</a>
+              </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sepet</a>
+              </li>
+            </ul>
+        </div>
+     
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Ara</button>
+          </form>
+        </div>
+    </nav></div>
+  
+    <br><br>
+    <div class="sidebar w-10 h-50 ">
+      
+      <a  href="login.html">GIRIS YAP</a>
+      <a class="active" href="">Anasayfa</a>
+      <h5>Markalar</h5>
+      <br>
+      <a href="giyim.html" >Giyim</a>
+      <a href="kisiselbakim.html" >Kişisel Bakım</a>
+      <a href="kirtasiye.html" >Kırtasiye</a>
+    </div>
+    <div class="kartlar">
+      <div class="card">
+        <img class="img-fluid" alt="img" src="img/defterjpg.jpg">
+            <div class="Cardbody">
+              <h4 class="card-title">Chromo-Defter Seti</h4>
+                <p class="card-text">Renk Seçenekleri:yeşil, kırmızı, mavi, sarı, turuncu, mor, su yeşili</p>
+            </div>
+      </div>
+      <div class="card">
+        <img class="img-fluid" alt="img" src="img/vit.jpg">
+            <div class="Cardbody">
+              <h4 class="card-title">Garnier-C Vitamini Serumu</h4>
+                <p class="card-text">Ciltteki lekeleri azaltmaya, parlaklık vermeye yardımcı....</p>
+            </div>
+      </div>
+      <div class="card">
+        <img class="img-fluid" alt="img" src="img/sweat.jpg">
+            <div class="Cardbody">
+              <h4 class="card-title">Sweatshirt</h4>
+                <p class="card-text">Renk Seçenekleri: Siyah, Beyaz, Fil Dişi</p>
+            </div>
+      </div>
+    </div>
+        
+        
+        
+    
+    
+    
+      
+<!-- SLİDER -->
+      <div class="div">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+            <div class="text">  <div class="col-md-4 mx ">
+                <div class="card">
+                  <img class="img-fluid" alt="img" src="img/mont.jpg">
+                      <div class="Cardbody">
+                        <h4 class="card-title">H&M-Kırmızı Mont</h4>
+                          <p class="card-text">Özellikler: kuş tüyü, XS-S-M bedenler....</p>
+                      </div>
+                </div>
+            </div></div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+            <div class="text"> <div class="col-md-4 mb-3">
+              <div class="card">
+                <img class="img-fluid" alt="img" src="img/kot.jpg">
+                    <div class="Cardbody">
+                      <h4 class="card-title">Mavi-Kot Pantalon</h4>
+                        <p class="card-text">Özellikler: koyu mavi, S-M-L-XL bedenler,.....</p>
+                    </div>
+              </div>
+             </div></div>
+        </div>  
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+              <div class="text"> <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img class="img-fluid" alt="img" src="img/yuztemiz.jpg">
+                    <div class="Cardbody">
+                        <h4 class="card-title">CeraVe-Yüz Temizleme Jeli</h4>
+                        <p class="card-text">Özellikler: 250 ml, günlük kullanıma uygun,....</p>
+                    </div>
+                </div>
+              </div></div>
+              </div>
+      </div>
+  </div>
+  
+
+  
+
+
+
+
+
+
+<script src="index.js"></script>
+</body>
+</html>
